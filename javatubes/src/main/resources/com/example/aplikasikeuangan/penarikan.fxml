@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+<?import javafx.scene.text.*?>
+
+<AnchorPane prefHeight="301.0" prefWidth="490.0" xmlns="http://javafx.com/javafx/17.0.2-ea" xmlns:fx="http://javafx.com/fxml/1" fx:controller="com.example.aplikasikeuangan.PenarikanController">
+    <children>
+        <AnchorPane layoutY="-92.0" prefHeight="186.0" prefWidth="490.0" style="-fx-background-color: #027ff4;">
+            <children>
+                <Label layoutX="181.0" layoutY="130.0" text="PENARIKAN">
+                    <font>
+                        <Font size="24.0" />
+                    </font>
+                </Label>
+            </children></AnchorPane>
+        <TextField fx:id="norek" layoutX="171.0" layoutY="108.0" />
+        <TextField fx:id="nominal2" layoutX="171.0" layoutY="151.0" />
+        <PasswordField fx:id="passwordtrans" layoutX="171.0" layoutY="195.0" />
+        <Button layoutX="164.0" layoutY="244.0" mnemonicParsing="false" onAction="#tarikcancel" text="CANCEL" />
+        <Button layoutX="269.0" layoutY="244.0" mnemonicParsing="false" onAction="#tarik" prefHeight="26.0" prefWidth="60.0" text="OK" />
+        <Label layoutX="85.0" layoutY="112.0" text="No Rekening" />
+        <Label layoutX="105.0" layoutY="155.0" text="Nominal" />
+        <Label layoutX="54.0" layoutY="199.0" text="Password Transaksi" />
+    </children>
+</AnchorPane>

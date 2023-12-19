@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+<?import javafx.scene.text.*?>
+
+<AnchorPane prefHeight="301.0" prefWidth="490.0" xmlns="http://javafx.com/javafx/17.0.2-ea" xmlns:fx="http://javafx.com/fxml/1" fx:controller="com.example.aplikasikeuangan.CeksaldoController">
+    <children>
+        <AnchorPane layoutY="-106.0" prefHeight="200.0" prefWidth="490.0" style="-fx-background-color: #027ff4;">
+            <children>
+                <Label layoutX="205.0" layoutY="148.0" text="SALDO">
+                    <font>
+                        <Font size="24.0" />
+                    </font>
+                </Label>
+            </children></AnchorPane>
+        <Label layoutX="146.0" layoutY="125.0" text="No Rekening: ">
+            <font>
+                <Font size="14.0" />
+            </font>
+        </Label>
+        <Label layoutX="146.0" layoutY="168.0" text="Jumlah Saldo: ">
+            <font>
+                <Font size="14.0" />
+            </font>
+        </Label>
+        <Button layoutX="213.0" layoutY="233.0" mnemonicParsing="false" onAction="#validateok" text="KEMBALI" />
+        <Label fx:id="hasil" layoutX="263.0" layoutY="126.0" >
+            <font>
+                <Font size="14.0" />
+            </font>
+        </Label>
+        <Label fx:id="jumlah" layoutX="263.0" layoutY="169.0" >
+            <font>
+                <Font size="14.0" />
+            </font>
+        </Label>
+      <Button layoutX="430.0" layoutY="123.0" mnemonicParsing="false" text="lihat" onAction="#saldo" />
+    </children>
+</AnchorPane>

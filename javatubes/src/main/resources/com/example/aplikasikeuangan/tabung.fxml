@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+<?import javafx.scene.text.*?>
+
+<AnchorPane prefHeight="301.0" prefWidth="490.0" xmlns="http://javafx.com/javafx/17.0.2-ea" xmlns:fx="http://javafx.com/fxml/1" fx:controller="com.example.aplikasikeuangan.TabungController">
+    <children>
+        <Button layoutX="295.0" layoutY="258.0" mnemonicParsing="false"  prefHeight="26.0" prefWidth="60.0" text="OK" onAction="#buttonclicktok"/>
+        <Button layoutX="156.0" layoutY="259.0" mnemonicParsing="false" text="CANCEL" onAction="#buttonclicktcancel"/>
+        <TextField fx:id="norek" layoutX="220.0" layoutY="109.0" />
+        <TextField fx:id="nominal" layoutX="220.0" layoutY="158.0" />
+        <AnchorPane layoutY="-100.0" prefHeight="193.0" prefWidth="490.0" style="-fx-background-color: #027ff4;">
+            <children>
+                <Label alignment="CENTER" layoutX="182.0" layoutY="135.0" text="TABUNGAN" textAlignment="CENTER">
+                    <font>
+                        <Font size="24.0" />
+                    </font>
+                </Label>
+            </children></AnchorPane>
+        <Label layoutX="138.0" layoutY="113.0" text="No.Rekening" />
+        <Label layoutX="156.0" layoutY="162.0" text="Nominal" />
+        <Label layoutX="102.0" layoutY="199.0" text="password transaksi" />
+        <PasswordField fx:id="passwordtrans" layoutX="220.0" layoutY="204.0" />
+    </children>
+</AnchorPane>
+
